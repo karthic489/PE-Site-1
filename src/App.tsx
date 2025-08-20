@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
-import newLogo from '../components/figma/bf884ace129e09e829b430f239b73741c1e49645.png';
-import logoConstruction from '../components/figma/8760d11bdfa061b27dec4453fe1b3e9a1f7404de.png';
-import molecularStructure from '../components/figma/848922857c54a54de89edfbe2bd03b454e37479d.png';
+import newLogo from 'figma:asset/bf884ace129e09e829b430f239b73741c1e49645.png';
+import logoConstruction from 'figma:asset/8760d11bdfa061b27dec4453fe1b3e9a1f7404de.png';
+import molecularStructure from 'figma:asset/848922857c54a54de89edfbe2bd03b454e37479d.png';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('buttons');
